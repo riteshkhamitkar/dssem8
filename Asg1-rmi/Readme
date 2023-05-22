@@ -1,0 +1,12 @@
+if port already in use error use: `netstat -ano | findstr :1099` to find the pid of process holding port 1099 and: taskkill /PID <PID> /F  to kill it.
+
+Commands:
+
+javac ChatService.java ChatServer.java ChatClient.java
+rmiregistery
+
+/////other terminal/////
+java ChatServer
+
+/////other terminal/////
+java ChatClient
